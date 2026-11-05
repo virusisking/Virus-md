@@ -1,0 +1,13 @@
+{
+  "name": "virus-md",
+  "version": "4.0.0",
+  "description": "VIRUS-MD WhatsApp bot with web pairing panel and 200 monitored bot-server slots",
+  "main": "index.js",
+  "scripts": { "start": "node index.js", "check": "node --check index.js" },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.18",
+    "express": "^4.21.2",
+    "pino": "^9.0.0"
+  }
+}
